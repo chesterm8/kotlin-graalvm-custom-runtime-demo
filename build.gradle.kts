@@ -1,9 +1,10 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.3.10"
     id("com.github.johnrengelman.shadow") version "4.0.3"
+    id("idea")
 }
 
 group = "com.github.md"
